@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "proven-answer-451215-k1",
+    "site": "abcfgt",
     "public": "dist",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
