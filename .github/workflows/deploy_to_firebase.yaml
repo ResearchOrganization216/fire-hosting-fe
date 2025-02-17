@@ -29,6 +29,4 @@ jobs:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: |
           npm install -g firebase-tools
-          echo "$FIREBASE_TOKEN" > service-account.json
-          firebase auth:import service-account.json
           firebase deploy --only hosting:abcfgt --debug
